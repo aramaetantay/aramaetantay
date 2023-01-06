@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap')
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+	margin: auto;
+	width: 100%;
+	min-width: 600px;
+	max-width: 2000px;
+	height: 100vh;
+	background-image:url('images/bgd.gif'); 
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+html{
+  font-size: 10px;
+  font-family: 'Gravitas One', cursive;
+  font-style: normal;
+}
+
+a {
+	text-decoration: none;
+}
+
+p{
+	font-family: 'Gravitas One', cursive;
+	font-weight: 10000;
+	color: black;
+    font-size: 18px;
+	
+}
+
+li{
+	font-family: 'Gravitas One', cursive;
+	font-weight: 10000;
+    font-size: 18px;
+    color: black;
+}
+
+.list{
+	font-family: 'Gravitas One', cursive;
+	font-weight: 10000;
+    font-size: 18px;
+    color: black;
+	margin-left: 70px;
+}
+
+.container {
+  height: 1930px;
+  width: 70%;
+  background-color:#FFCBA4;
+  display: flex;
+  align-items: top-center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 25px;
+}
+
+/* image - profile */
+.profile {
+	border-radius: 150px;
+	width: 265px;
+	height: 265px;
+	margin-right: 20px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.image-profile{
+	width: 265px;
+	height:265px;
+	position: absolute;
+	margin-top: 160px;
+	margin-right: 620px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	padding-left: 5px;
+}
+
+/*basic-info*/
+.basic-info{
+	width: 350px;
+	height: 320px;
+	position: absolute;
+	margin-top: 440px;
+	margin-right: 620px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFD7D7;
+	padding-left: 5px;
+	border-radius: 20px;
+	border-style:solid;
+	border-width: 7px;
+	border-color: #AA6F73;
+}
+	
+.skills{
+	width: 350px;
+	height: 280px;
+	position: absolute;
+	margin-top: 1060px;
+	margin-right: 620px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFD7D7;
+	padding-left: 10px;
+	border-radius: 15px;
+	border-style:solid;
+	border-width: 7px;
+	border-color: #AA6F73;
+}
+
+.Hobbies{
+	width: 350px;
+	height: 260px;
+	position: absolute;
+	margin-top: 780px;
+	margin-right: 620px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	background-color: #FFD7D7;
+	padding-left: 10px;
+	border-radius: 20px;
+	border-style:solid;
+	border-width: 7px;
+	border-color: #AA6F73;
+}
+
+.hbs{
+	border-radius: 10px;
+	width: 60px;
+	height: 60px;
+	margin-left: 20px;
+}
+
+.fam-bg{
+	width: 600px;
+	height: 575px;
+	position: absolute;
+	margin-top: 365px;
+	margin-left: 400px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 5px 5px 5px;
+	border-radius: 25px;
+	border-color: #AA6F73;
+	border-style: solid;
+	border-width: 7px;
+}
+
+.sw {
+	width: 600px;
+	height: 360px;
+	position: absolute;
+	margin-top: 970px;
+	margin-left: 400px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 5px 5px 5px;
+	border-radius: 20px;
+	border-color: #AA6F73;
+	border-style: solid;
+	border-width: 7px;
+}
+
+.strength{
+	width: 270px;
+	height: 260px;
+	position: absolute;
+	margin-top: 10px;
+	margin-right: 430px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	background-color: #D3B3BB;
+	padding-left: 10px;
+	border-radius: 20px;
+}
+
+.weakness{
+	width: 280px;
+	height: 260px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 305px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	background-color: #D3B3BB;
+	padding-left: 10px;
+	border-radius: 20px;
+}
+
+.career{
+	width: 1010px;
+	height: 560px;
+	position: absolute;
+	margin-top: 1365px;
+	margin-left: 10px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	padding: 5px 10px 5px 20px;
+	border-radius: 20px;
+	border-style: solid;
+	border-width: 7px;
+	border: 10px double #AA6F73;
+	font-size: 1.5rem;
+	outline: 4px solid #6C5B7B;
+	outline-offset: -20px;
+	box-sizing: border-box;
+}
+
+.header{
+	font-family: 'Merriweather', serif;
+	text-align: center;
+	font-size: 25px;
+}
+
+.family{
+	border-radius: 10px;
+	width: 500px;
+	height: 250px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+
+.dev{
+	border-radius: 10px;
+	width: 500px;
+	height: 250px;
+	margin-top: 10px;
+	margin-right: 20px;
+	margin-left: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.fname{
+	width: fit-content;
+	height: fit-content;
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 320px;
+	display: block;
+	align-items: center;
+	justify-content: center;
+}
+
+.title{
+	width: 1020px;
+	height: 100px;
+	background-color: #FFD7D7;
+	border-radius: 20px;
+	border-style:solid;
+	border-width: 7px;
+	border-color: #AA6F73;
+	margin-top: 20px;
+}
+
+.title1{
+	font-family: 'Merriweather', serif;
+	font-weight: 10000;
+    width: 360px;
+	height: 100ox;
+    font-size: 80px;
+    color: black;
+	letter-spacing: 10px;
+	text-align: center;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	margin: 0 0 0 320px;
+}
+
+/* Hero Section */
+#hero {
+   height:100%;
+   width:100%;
+}
+
+#hero .name{
+	font-family: 'Merriweather', serif;
+	font-weight: 10000;
+    display: block;
+    width: fit-content;
+    font-size: 80px;
+    position: relative;
+    color: black;
+	float: right;
+}
+
